@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/white"
+    android:gravity="center|center"   >
+
+    <TextView
+        android:id="@+id/DealerInfoNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dealerInfoNameTitle"
+        android:textSize="8pt" />
+
+    <EditText
+        android:id="@+id/dealerInfoName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"/>
+
+    <TextView
+        android:id="@+id/DealerInfoAddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dealerInfoAddressTitle"
+        android:textSize="8pt" />
+
+    <EditText
+        android:id="@+id/dealerInfoAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/DealerInfoAddress1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dealerInfoAddress1Title"
+        android:textSize="8pt" />
+
+    <EditText
+        android:id="@+id/dealerInfoAddress1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:id="@+id/DealerInfoCityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dealerInfoCityTitle"
+        android:textSize="8pt"/>
+
+    <EditText
+        android:id="@+id/dealerInfoCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

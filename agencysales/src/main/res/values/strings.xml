@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgencySales</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Dealer</item>
+        <item>Accounts</item>
+        <item>Pricelist</item>
+        <item>Schemes</item>
+    </string-array>
+
+    <string name="title_section1">Dealer</string>
+    <string name="title_section2">Accounts</string>
+    <string name="title_section3">Schemes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="customer_search_label">Search Customer</string>
+    <string name="select_customer">Search</string>
+    <string name="search_hint">Search Dealer</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dealer_detail">DealerDetail</string>
+    <string name="dealerInfoNameTitle">Dealer Name</string>
+    <string name="dealerInfoAddressTitle">Address</string>
+    <string name="dealerInfoAddress1Title">Address</string>
+    <string name="dealerInfoCityTitle">City</string>
+
+</resources>

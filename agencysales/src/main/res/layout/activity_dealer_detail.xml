@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dealerDetailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:visibility="invisible"/>
+
+
+    <TableLayout
+        style="@style/layout_f_w"
+        android:stretchColumns="*"
+        >
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:background="#eeeeee"
+            style="@style/layout_wrap">
+
+            <!-- First tabl -->
+            <LinearLayout
+                style="@style/layout_f_w"
+                android:id="@+id/first_text"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView1"
+                    android:text="Tab1"
+                    style="@style/text_title" />
+
+
+            </LinearLayout>
+
+            <!-- License info -->
+            <LinearLayout
+                style="@style/layout_f_w"
+                android:id="@+id/second_text"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView1"
+                    android:text="Tab2"
+                    style="@style/text_title"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Include Tab indicator -->
+    <include layout="@layout/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
+
